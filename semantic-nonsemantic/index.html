@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Semantic vs Non-Semantic Elements</title>
+    </head>
+    <body>
+        <!-- Div is a non-semantic element -->
+        <div>
+            <h1>This is my main title</h1>
+            <p>This is an intro to my page</p>
+        </div>
+
+        <div>
+            <a>Home</a>
+            <a>Contact</a>
+        </div>
+
+        <div>
+            <div>
+                <h3>This is my post title</h3>
+                <p>This is my post content</p>
+            </div>
+            <div>
+                <h3>This is my post title</h3>
+                <p>This is my post content</p>
+            </div>
+            <div>
+                <h3>This is my post title</h3>
+                <p>This is my post content</p>
+            </div>
+        </div>
+
+        <div>
+            <p>Author of the page</p>
+        </div>
+
+        <!-- Semantic elements -->
+        <header>
+            <h1>This is my title</h1>
+            <p>This is the intro to my page</p>
+        </header>
+
+        <nav>
+            <a>Home</a>
+            <a>Contact</a>
+        </nav>
+
+        <main>
+            <article>
+                <h3>This is my heading</h3>
+                <p>This is my post content</p>
+            </article>
+            <article>
+                <h3>This is my heading</h3>
+                <p>This is my post content</p>
+                <section>
+                    <h5>This is a smaller heading</h5>
+                    <p>More article content</p>
+                    <p>More article content</p>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <p>Author of the page</p>
+        </footer>
+    </body>
+</html>
