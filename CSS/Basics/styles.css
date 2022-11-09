@@ -1,0 +1,27 @@
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(75, 136, 136);
+    /* one value - all sides have 30px of a margin */
+    /* margin: 30px; */
+
+    /* two values - top and bottom 30px and left and right 80px of margin */
+    /* margin: 30px 80px; */
+
+    /* four values - top right bottom left */
+    margin: 5px 15px 30px 2px;
+
+    /* margin-top/right/left/bottom */
+}
+
+p {
+    font-weight: bold;
+    font-style: italic;
+
+    border: 2px dashed rgb(93, 93, 55);
+}
+
+h2 {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: blueviolet;
+}

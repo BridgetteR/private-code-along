@@ -1,0 +1,26 @@
+.wrapper {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper h1 {
+    color: blue;
+}
+
+.wrapper p {
+    color: red;
+    text-decoration: underline;
+}
+
+.wrapper > ul {
+    list-style-type: none;
+}
+
+.wrapper ~ p {
+    color: brown;
+}
+
+.wrapper + p {
+    color: coral;
+    font-weight: bold;
+}

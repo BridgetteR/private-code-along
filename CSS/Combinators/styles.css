@@ -1,0 +1,23 @@
+/* descendant combinator */
+
+div.container p {
+    color: red;
+}
+
+/* child combinator - direct descendant */
+
+div.container > p {
+    color: blue;
+}
+
+/* adjacent sibling combinator - only the first sibling gets selected */
+
+div.container + p {
+    color: yellowgreen;
+}
+
+/* general sibling combinator - all siblings get selected */
+
+div.container ~ p {
+    color: orchid;
+}

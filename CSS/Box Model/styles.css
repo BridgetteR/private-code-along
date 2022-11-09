@@ -1,0 +1,15 @@
+#container {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(201, 147, 147);
+    border: 1px solid red;
+}
+
+#box {
+    /* width: 200px;
+    height: 200px; */
+    background-color: rgb(144, 224, 220);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 40px;
+}

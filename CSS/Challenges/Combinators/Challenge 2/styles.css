@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+}
+
+.sect-1 ul li {
+    color: lightgray;
+}
+
+.sect-1 ul #paraA {
+    color: black;
+    font-style: italic;
+}
+
+.sect-2 ul li {
+    text-decoration: underline;
+}
+
+.sect-3 ul li {
+    color: blue;
+}
+
+.sect-3 ul li #paraG {
+    color: black;
+}

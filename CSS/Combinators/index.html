@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- descendants of div.container -->
+
+            <div class="inner">
+                <!-- grandchild of div.container and child of div.inner - not a direct descendant of div.container -->
+
+                <p>I am a grandchild div.container, I'm bold</p>
+            </div>
+
+            <!-- children of div.container: div.inner and paragraph below -->
+
+            <p>I am a child of div.container and a sibling to div.inner</p>
+
+            <p>I am also a child of div.container</p>
+        </div>
+
+        <!-- siblings of div.container -->
+
+        <p>I am the first sibling of div.container</p>
+        <p>I am the second sibling of div.container</p>
+    </body>
+</html>

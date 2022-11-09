@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    text-align: right;
+}
+
+h2 {
+    color: green;
+}
+
+ul {
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#gavin {
+    font-style: italic;
+    text-decoration: underline;
+}

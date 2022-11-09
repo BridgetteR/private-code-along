@@ -1,0 +1,16 @@
+p {
+    color: blue;
+    background-color: black;
+}
+
+.red-para {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+* {
+    background-color: antiquewhite;
+}
