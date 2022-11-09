@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Forms</title>
+    </head>
+    <body>
+        <!-- HTML Forms -->
+        <!-- 1. Why do we need forms? -->
+        <!-- To get data from the user, interact with the user -->
+
+        <!-- 2. Examples of forms -->
+        <!-- Login -->
+        <!-- Contact -->
+        <!-- Newsletter signup forms -->
+        <!-- Payment forms, like card details -->
+        <!-- Forms on e-commerce websites -->
+        <!-- Questionnaires, surveys -->
+        <!-- Accepting terms and conditions, cookies -->
+
+        <!-- 3. Different inputs we can use -->
+
+        <!-- 4. How to add labels to our forms -->
+
+        <!-- Ask the user for their first name -->
+        <label for="firstName">First Name: </label>
+        <input
+            id="firstName"
+            type="text"
+            placeholder="Please enter first name"
+        />
+        <br />
+        <br />
+
+        <!-- Last Name -->
+        <label for="lastName">Last Name: </label>
+        <input id="lastName" type="text" placeholder="Please enter last name" />
+        <br />
+        <br />
+
+        <!-- Message -->
+        <label for="message">Message: </label>
+        <br />
+        <textarea
+            id="message"
+            cols="40"
+            rows="15"
+            placeholder="Please enter your message"
+        ></textarea>
+        <br />
+        <br />
+
+        <!-- Age -->
+        <label for="age">Age: </label>
+        <input id="age" type="number" placeholder="Please enter your age" />
+        <br />
+        <br />
+
+        <!-- What state they live in -->
+        <label for="state">State: </label>
+        <select name="state" id="state">
+            <option value="ACT">ACT</option>
+            <option value="NSW">NSW</option>
+            <option value="VIC">VIC</option>
+            <option value="SA">SA</option>
+            <option value="WA">WA</option>
+            <option value="NT">NT</option>
+            <option value="QLD">QLD</option>
+        </select>
+    </body>
+</html>

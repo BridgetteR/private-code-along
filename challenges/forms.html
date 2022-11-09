@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Challenge</title>
+    </head>
+    <body>
+        <label for="firstName">First Name: </label>
+        <input type="text" placeholder="First Name" id="firstName" />
+        <br />
+
+        <label for="lastName">Last Name: </label>
+        <input type="text" placeholder="Last Name" id="lastName" />
+        <br />
+
+        <label for="favColour">Favourite Colour: </label>
+        <input type="color" id="favColour" />
+        <br />
+
+        <label for="phoneNumber">Phone Number: </label>
+        <select id="phoneNumber">
+            <option>+61</option>
+            <option>+1</option>
+        </select>
+        <input
+            type="tel"
+            placeholder="04XX-XXX-XXX"
+            pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"
+        />
+        <button type="submit">Submit</button>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Validation</title>
+    </head>
+    <body>
+        <form action="https://formspree.io/f/xbjbqonb" method="POST">
+            <!-- First Name -->
+            <label for="firstName">First Name: </label>
+            <input
+                name="firstName"
+                type="text"
+                placeholder="First Name"
+                id="firstName"
+                required
+            />
+            <br />
+            <br />
+            <!-- Last Name -->
+            <label for="lastName">First Name: </label>
+            <input
+                name="lastName"
+                type="text"
+                placeholder="Last Name"
+                id="lastName"
+                required
+            />
+            <br />
+            <br />
+            <!-- Favourite Colour -->
+            <label for="favColour">Favourite Colour: </label>
+            <select name="favColour" id="favColour" required>
+                <option value="" selected disabled hidden>
+                    Select a Colour
+                </option>
+                <!-- <option value="" hidden>Select a Colour</option> -->
+                <option value="Red">Red</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Green">Green</option>
+            </select>
+            <br />
+            <br />
+            <!-- Phone Number -->
+            <label for="phone">Phone Number: </label>
+            <!-- 0111 111 111 -->
+            <input
+                name="phone"
+                type="tel"
+                id="phone"
+                pattern="[0][4][0-9]{8}"
+                placeholder="0411111111"
+            />
+            <br />
+            <br />
+            <!-- Email Address -->
+            <label for="email">Email Address: </label>
+            <input
+                name="email"
+                type="email"
+                id="email"
+                placeholder="Enter Your Email"
+            />
+            <br />
+            <br />
+            <!-- Password -->
+            <label for="pass">Password: </label>
+            <input
+                name="pass"
+                type="password"
+                id="pass"
+                minlength="8"
+                maxlength="16"
+            />
+            <br />
+            <br />
+            <!-- Age -->
+            <label for="age">Age: </label>
+            <input name="age" type="number" id="age" min="1" max="150" />
+            <br />
+            <br />
+            <button type="submit">Submit Form</button>
+
+            <!-- Making sure that the user doesn't submit a blank form -->
+            <!-- Make sure that email is an email -->
+            <!-- Make sure the phone number is the right format -->
+            <!-- Age needs to be a positive number, min age, max age -->
+        </form>
+    </body>
+</html>
