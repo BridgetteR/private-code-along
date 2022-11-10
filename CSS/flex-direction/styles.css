@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* width: 60vw; */
+    border: 1px solid black;
+    height: 300px;
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    align-items: flex-start;
+}
+
+input {
+    width: 300px;
+}

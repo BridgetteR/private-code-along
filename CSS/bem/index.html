@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>BEM</title>
+    </head>
+    <body>
+        <!-- BEM -->
+        <!-- Block__Elements--Modifier -->
+        <!-- Why would we use BEM? -->
+        <!-- Staying consistent -->
+        <!-- Modular and reusable -->
+
+        <!-- Block -->
+        <div class="card">
+            <h2 class="card__title">This is my title</h2>
+            <p class="card__description">This is my description</p>
+            <button class="card__btn">Click Me</button>
+            <button class="card__btn card__btn--secondary">Click Me</button>
+        </div>
+
+        <!-- We have multiple btns on the page, all styled the same -->
+        <div class="card">
+            <h2 class="card__title card__title--important">This is my title</h2>
+            <p class="card__description">This is my description</p>
+            <button class="btn">Click Me</button>
+            <button class="btn btn--secondary">Click Me</button>
+        </div>
+
+        <div class="about">
+            <div class="about__text--wrapper">
+                <h2 class="about__title">About Me</h2>
+                <p class="about__description">Some text about me</p>
+                <button class="btn">Click Me</button>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <!-- It is fine to start a block inside a block -->
+            <article class="gallery-item">
+                <img
+                    class="gallery__img"
+                    src="https://www.placecage.com/g/200/300"
+                    alt="nick cage"
+                />
+                <section class="gallery-item__wrapper">
+                    <!-- Sometimes, with multiple levels of nesting, we want to "flatten" the hierarchy and not include every single element with generic elements like wrapper etc. -->
+                    <h2 class="gallery-item__title">This is my main heading</h2>
+                    <h4 class="gallery-item__subtitle">This is a subheading</h4>
+                    <p class="gallery-item__description">
+                        This is some text about Nick Cage
+                    </p>
+                </section>
+                <button class="btn">More Info</button>
+            </article>
+
+            <article class="gallery-item">
+                <img
+                    class="gallery__img"
+                    src="https://www.placecage.com/g/200/300"
+                    alt="nick cage"
+                />
+                <section class="gallery-item__wrapper">
+                    <h2 class="gallery-item__title">This is my main heading</h2>
+                    <h4 class="gallery-item__subtitle">This is a subheading</h4>
+                    <p class="gallery-item__description">
+                        This is some text about Nick Cage
+                    </p>
+                </section>
+                <button class="btn">More Info</button>
+            </article>
+
+            <article class="gallery-item">
+                <img
+                    class="gallery__img"
+                    src="https://www.placecage.com/g/200/300"
+                    alt="nick cage"
+                />
+                <section class="gallery-item__wrapper">
+                    <h2 class="gallery-item__title">This is my main heading</h2>
+                    <h4 class="gallery-item__subtitle">This is a subheading</h4>
+                    <p class="gallery-item__description">
+                        This is some text about Nick Cage
+                    </p>
+                </section>
+                <button class="btn">More Info</button>
+            </article>
+        </div>
+    </body>
+</html>

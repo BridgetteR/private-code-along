@@ -1,0 +1,63 @@
+button {
+    color: red;
+}
+
+button:hover {
+    color: blue;
+    text-decoration: line-through;
+}
+
+/* of-type */
+
+.box > p:first-of-type {
+    color: red;
+    text-decoration: line-through;
+}
+
+.box > p:nth-of-type(2) {
+    color: aquamarine;
+}
+
+.box > p:last-of-type {
+    color: darkgreen;
+}
+
+.box > p:nth-last-of-type(2) {
+    color: gold;
+}
+
+.box > h1:only-of-type {
+    color: green;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: blueviolet;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellowgreen;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+
+form > input:optional {
+    border: 2px solid blue;
+}
+
+form > input:required {
+    border: 2px solid green;
+}
+
+form > input:enabled {
+    border: 2px solid red;
+}

@@ -1,0 +1,33 @@
+/* flexbox */
+/* flex container */
+/* flex items */
+
+/* flex container */
+main {
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+
+    /* this pushes cards to a new line when there's not enough space to fit them all in one line */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}
+
+/* flex items */
+.container {
+    background-color: aqua;
+    width: 150px;
+    height: 100px;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

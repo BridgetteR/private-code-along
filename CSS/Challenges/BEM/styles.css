@@ -1,0 +1,21 @@
+.gallery-item {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px dashed green;
+}
+
+.gallery-item--secondary {
+    border: 2px solid coral;
+}
+
+.gallery-item__title--center {
+    text-align: center;
+}
+
+.gallery-item__para {
+    color: blue;
+    text-decoration: line-through;
+}
+
+.gallery-item__para--right {
+    text-align: right;
+}

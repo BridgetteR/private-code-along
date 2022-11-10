@@ -1,0 +1,41 @@
+.card {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.card__title {
+    color: darkgray;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card__title--important {
+    color: blueviolet;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: cadetblue;
+    color: white;
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+}
+
+.btn--secondary {
+    color: cadetblue;
+    border-color: cadetblue;
+    background-color: white;
+}
+
+.gallery-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    width: 300px;
+}
