@@ -1,0 +1,45 @@
+.gallery-item {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px dashed green;
+}
+.gallery-item__para {
+  color: blue;
+  text-decoration: line-through;
+}
+.gallery-item__para--right {
+  text-align: right;
+}
+.gallery-item--secondary {
+  border: 2px solid coral;
+}
+.gallery-item__title--center {
+  text-align: center;
+}
+
+.wrapper {
+  border: 2px solid black;
+}
+.wrapper__title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper__title--blue {
+  color: blue;
+}
+.wrapper__para {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper__para--red {
+  color: red;
+  text-decoration: underline;
+}
+.wrapper__list {
+  list-style: none;
+}
+
+.body__para--coral-bold {
+  color: coral;
+  font-weight: bold;
+}
+.body__para--brown {
+  color: brown;
+}

@@ -1,0 +1,38 @@
+$primary-background-color: antiquewhite;
+$text-color: goldenrod;
+$default-bold: 700;
+
+.btn {
+    background-color: $primary-background-color;
+
+    &__border {
+        border-width: 1px;
+        border-radius: 10px;
+
+        &--dashed {
+            border-style: dashed;
+        }
+    }
+
+    &__text {
+        font-weight: $default-bold;
+
+        &--yellow {
+            color: $text-color;
+        }
+    }
+}
+
+.para {
+    background-color: $primary-background-color;
+    padding: 10px;
+    font-weight: $default-bold;
+    &--yellow {
+        color: $text-color;
+    }
+
+    &__border {
+        border-width: 1px;
+        border-radius: 10px;
+    }
+}

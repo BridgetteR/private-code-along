@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  border: 3px solid black;
+  font-size: 45px;
+}
+.btn:hover {
+  background-color: yellow;
+}
+.btn--hover-blue:hover {
+  background-color: blue;
+}
+.btn__text {
+  font-style: italic;
+  font-weight: bold;
+}
+.btn__text--red {
+  color: red;
+}

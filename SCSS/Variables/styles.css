@@ -1,0 +1,29 @@
+.btn {
+  background-color: antiquewhite;
+}
+.btn__border {
+  border-width: 1px;
+  border-radius: 10px;
+}
+.btn__border--dashed {
+  border-style: dashed;
+}
+.btn__text {
+  font-weight: 700;
+}
+.btn__text--yellow {
+  color: goldenrod;
+}
+
+.para {
+  background-color: antiquewhite;
+  padding: 10px;
+  font-weight: 700;
+}
+.para--yellow {
+  color: goldenrod;
+}
+.para__border {
+  border-width: 1px;
+  border-radius: 10px;
+}
