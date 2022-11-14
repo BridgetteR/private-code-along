@@ -1,0 +1,25 @@
+@use "./theme.scss";
+@import "./partials/_palette.scss";
+@import "./partials/_typography.scss";
+
+.box {
+    &__header {
+        padding: 20px;
+        &--border-gold {
+            border: 2px solid $gold-crayola;
+        }
+    }
+
+    &__para {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+
+        &--blue {
+            color: $liberty;
+        }
+
+        &--orange {
+            color: $pumpkin;
+        }
+    }
+}

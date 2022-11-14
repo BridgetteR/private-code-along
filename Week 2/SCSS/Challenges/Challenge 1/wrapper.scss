@@ -1,0 +1,38 @@
+@import "./partials/palette.scss";
+@import "./partials/typography.scss";
+
+.wrapper {
+    border: 2px solid $black;
+
+    &__title {
+        font-family: $main-font;
+
+        &--blue {
+            color: $blue;
+        }
+    }
+
+    &__para {
+        font-family: $main-font;
+
+        &--red {
+            color: $red;
+            text-decoration: underline;
+        }
+    }
+
+    &__list {
+        list-style: none;
+    }
+}
+
+.body__para {
+    &--coral-bold {
+        color: $main-orange;
+        font-weight: $bold;
+    }
+
+    &--brown {
+        color: $brown;
+    }
+}

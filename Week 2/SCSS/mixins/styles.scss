@@ -1,0 +1,22 @@
+// @import is becoming less supported, use @use instead for mixins
+// @import "./partials/mixins";
+@use "./partials/mixins";
+
+// How do we use a mixin?
+.nav-bar {
+    @include mixins.default-flex();
+}
+
+.gallery {
+    @include mixins.default-flex();
+}
+
+.card {
+    &__btn {
+        background-color: aquamarine;
+
+        @include mixins.size-mod(1px, 20px, 60px);
+    }
+}
+// How do we parameterize Mixins?
+// Can take certain values depending on when and where the mixin is used

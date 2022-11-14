@@ -1,0 +1,20 @@
+@mixin default-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+// @mixin size-mod($sm: 10px, $md: 20px, $lg: 60px) {
+@mixin size-mod($sm, $md, $lg) {
+    &--small {
+        font-size: $sm;
+    }
+
+    &--medium {
+        font-size: $md;
+    }
+
+    &--large {
+        font-size: $lg;
+    }
+}

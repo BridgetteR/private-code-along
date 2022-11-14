@@ -1,0 +1,21 @@
+@use "./partials/mixins.scss";
+
+.wrapper {
+    @include mixins.default-flex;
+}
+
+.wrapper__btn {
+    @include mixins.btn-main;
+
+    &--red {
+        border: 3px dotted red;
+    }
+
+    &--solid-blue {
+        border: 3px solid blue;
+    }
+
+    &--dashed-blue {
+        border: 3px dashed blue;
+    }
+}
