@@ -1,0 +1,38 @@
+$sm: 576px;
+$md: 992px;
+$lg: 1200px;
+
+// body {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     width: 100%;
+// }
+
+form {
+    display: grid;
+
+    @media only screen and (max-width: $sm) {
+        grid-template-columns: 1fr;
+
+        #colour {
+            visibility: hidden;
+        }
+    }
+
+    @media only screen and (min-width: ($sm +1px)) and (max-width: $md) {
+        grid-template-columns: 1fr;
+
+        #colour {
+            visibility: hidden;
+        }
+    }
+
+    @media only screen and (min-width: ($md +1px)) and (max-width: $lg) {
+        grid-template-columns: 1fr;
+    }
+
+    @media only screen and (min-width: $lg) {
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- first name -->
+        <form>
+            <label for="firstName">First Name: </label>
+            <input
+                name="firstName"
+                id="firstName"
+                type="text"
+                placeholder="Enter first name"
+                required
+            />
+            <!-- <br />
+            <br /> -->
+            <!-- last name -->
+
+            <label for="lastName">Last Name: </label>
+            <input
+                name="lastName"
+                id="lastName"
+                type="text"
+                placeholder="Enter first name"
+                required
+            />
+            <!-- <br />
+            <br /> -->
+            <!-- fav colour -->
+            <label for="colour">Favourite Colour: </label>
+            <select id="colour" required name="colour">
+                <option value="" selected disabled hidden>
+                    Please select a colour
+                </option>
+                <!-- <option value="" hidden>
+                    Please select a colour
+                </option> -->
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+            </select>
+            <!-- <br />
+            <br /> -->
+            <!-- phone number -->
+            <label for="phone">Phone Number: </label>
+            <!-- 0111111111 -->
+            <input
+                id="phone"
+                type="tel"
+                pattern="[04][0-9]{8}"
+                placeholder="0411111111"
+            />
+            <!-- <br />
+            <br /> -->
+            <!-- email address -->
+            <label for="email">Email address: </label>
+            <input
+                id="email"
+                type="email"
+                placeholder="Enter your email"
+                name="email"
+            />
+            <!-- <br />
+            <br /> -->
+            <!-- password -->
+            <label for="pass">Password: </label>
+            <input id="id" type="password" minlength="6" maxlength="8" />
+            <!-- <br />
+            <br /> -->
+            <!-- age -->
+            <label for="age">Age: </label>
+            <input id="age" type="number" min="1" max="150" />
+            <!-- <br />
+            <br /> -->
+            <button type="submit">Send form</button>
+        </form>
+    </body>
+</html>

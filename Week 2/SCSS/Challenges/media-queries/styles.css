@@ -1,0 +1,64 @@
+.flag {
+  border: 2px solid black;
+}
+@media only screen and (max-width: 600px) {
+  .flag {
+    width: 250px;
+    height: 150px;
+  }
+  .flag__stripe {
+    height: 33.3333333333%;
+    width: 100%;
+  }
+  .flag__stripe--one {
+    background-color: black;
+  }
+  .flag__stripe--two {
+    background-color: red;
+  }
+  .flag__stripe--three {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .flag {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+  }
+  .flag__stripe {
+    width: 33.3333333333%;
+    height: 100%;
+  }
+  .flag__stripe--one {
+    background-color: black;
+  }
+  .flag__stripe--two {
+    background-color: red;
+  }
+  .flag__stripe--three {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .flag {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  .flag__stripe {
+    width: 33.3333333333%;
+    height: 100%;
+  }
+  .flag__stripe--one {
+    background-color: green;
+  }
+  .flag__stripe--two {
+    background-color: white;
+  }
+  .flag__stripe--three {
+    background-color: orange;
+  }
+}

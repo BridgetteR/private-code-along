@@ -1,0 +1,63 @@
+$sm: 600px;
+$md: 900px;
+
+@mixin horizontal-stripe {
+    height: calc(100% / 3);
+    width: 100%;
+}
+
+@mixin verticle-stripe {
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+@mixin stripe-color($firstColor, $secondColor, $thirdColor) {
+    &--one {
+        background-color: $firstColor;
+    }
+
+    &--two {
+        background-color: $secondColor;
+    }
+
+    &--three {
+        background-color: $thirdColor;
+    }
+}
+
+.flag {
+    border: 2px solid black;
+
+    @media only screen and (max-width: $sm) {
+        width: 250px;
+        height: 150px;
+        &__stripe {
+            @include horizontal-stripe;
+            @include stripe-color(black, red, yellow);
+        }
+    }
+
+    @media only screen and (min-width: ($sm + 1px)) and (max-width: ($md)) {
+        width: 400px;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+
+        &__stripe {
+            @include verticle-stripe;
+            @include stripe-color(black, red, yellow);
+        }
+    }
+
+    @media only screen and (min-width: ($md + 1px)) {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+
+        &__stripe {
+            @include verticle-stripe;
+            @include stripe-color(green, white, orange);
+        }
+    }
+}

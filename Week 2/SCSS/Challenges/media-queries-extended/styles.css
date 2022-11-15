@@ -1,0 +1,29 @@
+form {
+  display: grid;
+}
+@media only screen and (max-width: 576px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+  form #colour {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+  form #colour {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  form {
+    grid-template-columns: 1fr 1fr;
+  }
+}
