@@ -1,0 +1,53 @@
+$purple: rgb(71, 7, 91);
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body--darkMode {
+    background-color: $purple;
+}
+
+.heading--darkMode {
+    color: white;
+}
+
+.container {
+    border: 2px solid $purple;
+    margin: 30px;
+    border-radius: 12px;
+    padding: 15px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $purple;
+
+    &--darkMode {
+        color: white;
+        background-color: $purple;
+        border: 2px solid white;
+    }
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: $purple;
+    border: 2px solid $purple;
+    color: white;
+    border-radius: 6px;
+    width: 150px;
+    margin: 10px;
+
+    &--darkMode {
+        color: $purple;
+        background-color: white;
+        border-color: white;
+    }
+}
