@@ -1,0 +1,24 @@
+.DarkMode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+
+    border: 2px solid rgb(130, 130, 157);
+
+    &__Card {
+        border: 2px solid grey;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+
+        &__Dark {
+            background-color: rgb(69, 69, 69);
+            color: white;
+        }
+    }
+}

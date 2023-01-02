@@ -1,0 +1,13 @@
+.Nav_Link {
+    margin: 15px;
+    text-decoration: none;
+}
+
+.Link_Active {
+    text-decoration: underline;
+    color: red;
+
+    &:visited {
+        color: red;
+    }
+}

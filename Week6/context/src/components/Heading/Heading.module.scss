@@ -1,0 +1,9 @@
+.Heading {
+    color: navy;
+    background-color: beige;
+
+    &_Dark {
+        color: beige;
+        background-color: navy;
+    }
+}

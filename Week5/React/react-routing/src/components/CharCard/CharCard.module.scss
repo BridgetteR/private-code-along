@@ -1,0 +1,11 @@
+.CharCard {
+    border: 2px solid rgb(4, 75, 108);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    width: 300px;
+
+    &_Img {
+        height: 200px;
+    }
+}

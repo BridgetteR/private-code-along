@@ -1,0 +1,9 @@
+.Button {
+    background-color: navy;
+    color: beige;
+
+    &_Dark {
+        color: navy;
+        background-color: beige;
+    }
+}
